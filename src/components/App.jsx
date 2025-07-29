@@ -54,7 +54,7 @@ function App() {
         onUpdate={updateNote}
         editingNote={editingNote}
         editIndex={editIndex}
-        onCancel={cancelEditing}
+        onCancelEdit={cancelEditing}
       />
       {notes.map((noteItem, index) => (
         <Note

@@ -7,9 +7,14 @@ function Note(props) {
     props.onDelete(props.id);
   }
 
-  function handleEdit(){
-    props.onEdit(props.id);
-  }
+  function handleEdit() {
+  const noteToEdit = {
+    title: props.title,
+    content: props.content
+  };
+  props.onEdit(noteToEdit, props.id);
+}
+
 
 
   return (

@@ -31,7 +31,7 @@ function CreateArea(props) {
     if (!note.title.trim() && !note.content.trim()) return;
 
     if (props.editIndex !== null) {
-      props.onUpdate(props.editIndex, note);
+      props.onUpdate(note, props.editIndex);
     } else {
       props.onAdd(note);
     }
