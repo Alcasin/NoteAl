@@ -14,9 +14,11 @@
 
 ---
 
-## 📷 Preview
+## 📸 Preview
 
-> *(You can add a screenshot here)*
+<img src="public/images/1.png" width="600"/>
+<img src="public/images/2.png" width="600"/>
+<img src="public/images/3.png" width="600"/>
 
 ---
 
